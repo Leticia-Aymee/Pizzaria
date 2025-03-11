@@ -1,0 +1,88 @@
+/* Estilos Gerais */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: url('TelaDeFundo-2.0.webp') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    min-height: 100vh;
+    margin: 0;
+    padding: 40px 20px;
+    overflow-y: auto; /* Permite rolagem caso o conteúdo ultrapasse a tela */
+}
+
+/* Container do Formulário */
+.container {
+    width: 100%;
+    max-width: 450px;
+    padding: 35px;
+    background: #ffffff; /* Fundo branco */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    text-align: center;
+    position: relative;
+}
+
+/* Logo */
+.logo {
+    width: 100%;
+    max-width: 300px;
+    margin: 20px auto; /* Adiciona mais espaço entre o topo e o formulário */
+    display: block;
+}
+
+/* Título */
+h1 {
+    color: #D32F2F;
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+/* Formulário */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Labels */
+label {
+    font-weight: 500;
+    text-align: left;
+    font-size: 14px;
+}
+
+/* Inputs e Select */
+input, select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+/* Botão */
+button {
+    background-color: #D32F2F;
+    color: white;
+    border: none;
+    padding: 14px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #b71c1c;
+}
+
+/* Links */
+.link {
+    display: block;
+}
